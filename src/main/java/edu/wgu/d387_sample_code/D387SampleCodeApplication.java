@@ -8,7 +8,8 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 public class D387SampleCodeApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
+		WelcomeMessage.displayWelcomeMessages();
 		SpringApplication.run(D387SampleCodeApplication.class, args);
 	}
 
