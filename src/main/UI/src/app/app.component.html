@@ -23,7 +23,17 @@
   <div class="scene" id="welcome">
     <article class="content">
 
+      <div class="row">
+        <div class="col-12">
+          <h1>Welcome</h1>
+          <p *ngFor="let message of welcomeMessages">
+            <strong>{{message}}</strong>
+          </p>
 
+          <h1>Online Live Presentation</h1>
+          <p><strong>{{presentationTimes}}</strong></p>
+        </div>
+      </div>
 
       <div class="row">
         <div class=""col-12>
